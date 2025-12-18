@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+
+@layer utilities {
+  .bg-fade {
+    background: linear-gradient(
+      to bottom,
+      #d1eaff 0%,
+      hsl(221, 91%, 87%) 50%,
+      #97b7fc 100%
+    );
+  }
+}
