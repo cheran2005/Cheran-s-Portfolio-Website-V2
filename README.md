@@ -6,7 +6,8 @@ A modern, responsive developer portfolio built with **Vite.js**, **TailwindCSS**
 
 ## 🚀 Live Demo
 
-🔗 
+🔗 [View My Portfolio](https://cheranbalakrishnanportfolio.vercel.app)   
+
 
 ---
 
