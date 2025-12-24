@@ -14,7 +14,8 @@ A modern, responsive developer portfolio built with **Vite.js**, **TailwindCSS**
 
 ## 🛠 Tech Stack
 
-- **Framework**: Vite.js 
+- **Frontend Library**: React.js
+- **Build Tool**: Vite.js 
 - **Styling**: TailwindCSS 
 - **Icons**: Lucide React
 - **Deployment**: Vercel
