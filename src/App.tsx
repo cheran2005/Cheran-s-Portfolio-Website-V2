@@ -231,7 +231,7 @@ function App() {
                       <p className="text-[rgb(44,43,43)] mb-3 leading-relaxed">
                         {Experinces.description}
                       </p>
-                      <p className="text-[rgb(3,66,148)] text-sm">
+                      <p className="text-[rgb(3,66,148)] text-sm font-bold">
                         {Experinces.tags.join(" • ")}
                       </p>
                 </div>
@@ -263,7 +263,7 @@ function App() {
                       {Education.title}
                     </a>
                   </h3>
-                      <p className="text-[rgb(3,66,148)] text-sm">
+                      <p className="text-[rgb(3,66,148)] text-sm font-bold">
                         {Education.tags.join(" • ")}
                       </p>
                 </div>
