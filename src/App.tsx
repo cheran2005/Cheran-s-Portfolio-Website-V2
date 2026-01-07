@@ -22,20 +22,79 @@ function App() {
   const projects = [
     {
       id: 1,
+      title: "Gradify (In Progress)",
+      description:
+        "Secure Academic Grade Management Platform enabling university students to securely track grades and GPA",
+      tags: ["C#","Python", "ASP.NET Core","React", "SQL Server Express", "TypeScript", "Tailwind CSS"],
+      link: "https://github.com/cheran2005/Gradify",
+    },
+    {
+      id: 2,
       title: "Housify",
       description:
         "An interactive house price prediction web app for Canadian home buyers",
       tags: ["React", "Flask","Numpy","Pandas"],
       link: "https://github.com/cheran2005/Housify/tree/main",
+      
     },
     {
-      id: 2,
+      id: 3,
       title: "Bookstore Applicaiton",
       description:
         "A java project built in NetBeans that simulates a basic online bookstore applicaiton",
       tags: ["Java", "Java FX"],
       link: "https://github.com/cheran2005/Java-FX-bookstore-application",
-    }
+    },
+
+    {
+
+      id: 4,
+      title: "GridLock",
+      description:
+        "A fun browser-based mind game where you memorize emoji patterns in a grid and answer questions based on them",
+      tags: ["JavaScript", "HTML5", "CSS"],
+      link: "https://github.com/cheran2005/GridLock",
+    },
+
+    {
+
+      id: 5,
+      title: "Mini Shell - Custom UNIX Shell in C",
+      description:
+        "A custom-built mini shell implemented in C that mocks basic shell behaviour such as redirection, piping, background processes and more",
+      tags: ["C"],
+      link: "https://github.com/cheran2005/Mini_Shell",
+    },
+
+    {
+
+      id: 6,
+      title: "Chat App - A simple multi-client chat application",
+      description:
+        "multi-client chat application is written in C using sockets and POSIX threads. It allows multiple clients to connect and send messages in real time, demonstrating key concepts in network programming and concurrency",
+      tags: ["C"],
+      link: "https://github.com/cheran2005/Chat-App",
+    },
+    {
+
+      id: 7,
+      title: "Multi-threaded File Downloader",
+      description:
+        "multi-threaded file downloader built in C using pthreads and libcurl. It reads URLs from a file (downloads.txt by default), spawns multiple threads, and downloads each file concurrently",
+      tags: ["C"],
+      link: "https://github.com/cheran2005/Mutlithread-downloader",
+    },
+
+    {
+
+      id: 8,
+      title: "Custom Malloc",
+      description:
+        "A custom implementation of malloc, free, calloc, and realloc written in C. It demonstrates low-level heap memory management, including block allocation, deallocation, and reuse",
+      tags: ["C"],
+      link: "https://github.com/cheran2005/Custom_Malloc/tree/main",
+    },
+
   ]
 
   const Experinces = [
@@ -91,12 +150,12 @@ function App() {
             <div className="text-base md:text-lg md:text-left text-center text-[rgb(44,42,42)] md:pr-4 " >{personalInfo.title}</div>
             <div className="text-base md:text-lg  md:text-left text-center text-[rgb(100,96,96)]">{personalInfo.bio}</div>
 
-            <div className=" flex items-center justify-center gap-2 text-base text-left text-[rgb(100,99,99)]">
+            <div className=" flex items-center justify-center gap-1 text-base text-left text-[rgb(100,99,99)]">
               <MapPin size={14} className="text-gray-400" /> 
               {personalInfo.location}
             </div>
             
-            <div className = "flex flex-wrap gap-3">
+            <div className = "flex flex-wrap gap-2">
               <SimpleButton info_link = {`mailto:${personalInfo.email}`}>
                   <Mail  size={15}  />
                   Mail
@@ -126,7 +185,7 @@ function App() {
                 <div className="shrink-0 mt-1">
                   <FolderGit2 className="w-10 h-10 object-contain text-black group-hover:text-blue-500 transition-colors" />
                 </div>
-                <div className="flex-1">
+                <div className="flex-1 ">
                   <h3 className="text-lg mb-2">
                     <a href={project.link} target="_blank"
                       className="text-gray-900 font-medium underline decoration-transparent decoration-2 underline-offset-4 hover:decoration-blue-500 hover:text-blue-600 transition-all"
