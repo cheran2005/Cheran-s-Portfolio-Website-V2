@@ -71,7 +71,7 @@ function App() {
       id: 6,
       title: "Chat App - A Multi-Client Chat Application",
       description:
-        "multi-client chat application is written in C using sockets and POSIX threads. It allows multiple clients to connect and send messages in real time, demonstrating key concepts in network programming and concurrency",
+        "Multi-client chat application is written in C using sockets and POSIX threads. It allows multiple clients to connect and send messages in real time, demonstrating key concepts in network programming and concurrency",
       tags: ["C"],
       link: "https://github.com/cheran2005/Chat-App",
     },
@@ -80,7 +80,7 @@ function App() {
       id: 7,
       title: "Multi-Threaded File Downloader",
       description:
-        "multi-threaded file downloader built in C using pthreads and libcurl. It reads URLs from a file (downloads.txt by default), spawns multiple threads, and downloads each file concurrently",
+        "Multi-threaded file downloader built in C using pthreads and libcurl. It reads URLs from a file (downloads.txt by default), spawns multiple threads, and downloads each file concurrently",
       tags: ["C"],
       link: "https://github.com/cheran2005/Mutlithread-downloader",
     },
