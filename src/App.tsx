@@ -196,7 +196,7 @@ function App() {
                       <p className="text-[rgb(44,43,43)] mb-3 leading-relaxed">
                         {project.description}
                       </p>
-                      <p className="text-[rgb(3,66,148)] text-sm">
+                      <p className="text-[rgb(3,66,148)] text-sm font-bold">
                         {project.tags.join(" • ")}
                       </p>
                 </div>
